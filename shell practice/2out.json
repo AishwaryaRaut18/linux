@@ -1,0 +1,32 @@
+ {
+      "center_id": 665026,
+      "name": "Sc Ghonsa 1",
+      "address": "Sc Ghonsa 1",
+      "state_name": "Maharashtra",
+      "district_name": "Yavatmal",
+      "block_name": "Wani",
+      "pincode": 445304,
+      "lat": 19,
+      "long": 78,
+      "from": "09:00:00",
+      "to": "17:30:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "01c62f1b-b813-4288-9be4-1c01ac38066f",
+          "date": "01-06-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:30PM"
+          ],
+          "available_capacity_dose1": 0,
+          "available_capacity_dose2": 0
+        }
+      ]
+  }
+

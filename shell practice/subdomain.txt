@@ -1,0 +1,11 @@
+admin 
+auth
+beta
+dec
+forum
+login
+blog
+news
+doc
+test
+

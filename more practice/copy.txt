@@ -1,0 +1,31 @@
+      
+ 58         #       for userid in `awk -F : '{print $3}' /etc/passwd`
+ 59                 # do
+ 60                  #       if (($userid >= 1000)); then
+ 61                 #                        if((`awk -F : '{print $2}' /etc/shadow` == '!!')); then
+ 62                 #                                 echo "users with no password: " : `cat /etc/shadow |awk -f : '{print $1}'`
+ 63                 #                         else
+ 64                 #                                 echo "users with  password: " : `cat /etc/shadow |  awk -F : '{print $1,$2}'`
+ 65                   #                        fi
+ 66                  #       fi       
+ 67                 # done
+ 68                 # ;;
+
+
+
+
+
+
+
+
+
+
+
+
+4 
+ 45                                   # if((`awk -F : '{print $1}' /etc/shadow` == `awk -F : '{print $1}' /etc/passwd`)); then
+ 46                                 #       if(`awk -F : '{print $2}' /etc/shadow` == !!)
+ 47                                  #                 echo "users with no password: " : `cat /etc/shadow |awk -f : '{print $1}'`
+ 48                                 #         else
+ 49                                  #                 echo "users with  password: " : `cat /etc/shadow |  awk -F : '{print $1,$2}'`
+
